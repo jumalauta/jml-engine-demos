@@ -1,3 +1,6 @@
 [submodule "p2v3/demo-jml-juha001"]
 	path = p2v3/demo-jml-juha001
 	url = https://github.com/jumalauta/demo-jml-juha001.git
+[submodule "p2v3/demo-jml-fallofman"]
+	path = p2v3/demo-jml-fallofman
+	url = https://github.com/jumalauta/demo-jml-fallofman.git
