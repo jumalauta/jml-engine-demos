@@ -42,8 +42,9 @@ jobs:
           cp -r p2v3 v2p3/
           cd v2p3
           touch playlist.js
-          echo "appendDemoToPlaylist('JUHA 001', 'p2v3/demo-jml-juha001/');" >> playlist.js
           echo "appendDemoToPlaylist('Fall of Man', 'p2v3/demo-jml-fallofman/');" >> playlist.js
+          echo "appendDemoToPlaylist('Fight 21XX', 'p2v3/demo-jml-fight21xx/');" >> playlist.js
+          echo "appendDemoToPlaylist('JUHA 001', 'p2v3/demo-jml-juha001/');" >> playlist.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

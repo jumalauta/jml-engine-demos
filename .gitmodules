@@ -4,3 +4,6 @@
 [submodule "p2v3/demo-jml-fallofman"]
 	path = p2v3/demo-jml-fallofman
 	url = https://github.com/jumalauta/demo-jml-fallofman.git
+[submodule "p2v3/demo-jml-fight21xx"]
+	path = p2v3/demo-jml-fight21xx
+	url = https://github.com/jumalauta/demo-jml-fight21xx
