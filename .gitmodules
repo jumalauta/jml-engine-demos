@@ -7,3 +7,6 @@
 [submodule "p2v3/demo-jml-fight21xx"]
 	path = p2v3/demo-jml-fight21xx
 	url = https://github.com/jumalauta/demo-jml-fight21xx
+[submodule "p2v3/demo-jml-hauho"]
+	path = p2v3/demo-jml-hauho
+	url = https://github.com/jumalauta/demo-jml-hauho

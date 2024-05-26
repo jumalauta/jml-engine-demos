@@ -44,6 +44,7 @@ jobs:
           touch playlist.js
           echo "appendDemoToPlaylist('Fall of Man', 'p2v3/demo-jml-fallofman/');" >> playlist.js
           echo "appendDemoToPlaylist('Fight 21XX', 'p2v3/demo-jml-fight21xx/');" >> playlist.js
+          echo "appendDemoToPlaylist('Hauho', 'p2v3/demo-jml-hauho/');" >> playlist.js
           echo "appendDemoToPlaylist('JUHA 001', 'p2v3/demo-jml-juha001/');" >> playlist.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
