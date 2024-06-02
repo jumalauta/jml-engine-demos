@@ -13,3 +13,6 @@
 [submodule "p2v3/demo-ajna-monumentalne-zabytki-mmdxxv"]
 	path = p2v3/demo-ajna-monumentalne-zabytki-mmdxxv
 	url = https://github.com/mrautio/demo-ajna-monumentalne-zabytki-mmdxxv.git
+[submodule "p2v3/demo-jml-auto2000"]
+	path = p2v3/demo-jml-auto2000
+	url = https://github.com/jumalauta/demo-jml-auto2000.git

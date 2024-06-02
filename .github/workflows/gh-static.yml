@@ -42,6 +42,7 @@ jobs:
           cp -r p2v3 v2p3/
           cd v2p3
           touch playlist.js
+          echo "appendDemoToPlaylist('JML - Auto 2000', 'p2v3/demo-jml-auto2000/');" >> playlist.js
           echo "appendDemoToPlaylist('JML - Fall of Man', 'p2v3/demo-jml-fallofman/');" >> playlist.js
           echo "appendDemoToPlaylist('JML - Fight 21XX', 'p2v3/demo-jml-fight21xx/');" >> playlist.js
           echo "appendDemoToPlaylist('JML - Hauho', 'p2v3/demo-jml-hauho/');" >> playlist.js
