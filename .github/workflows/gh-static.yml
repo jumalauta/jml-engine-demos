@@ -3,8 +3,8 @@ name: Deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
-  #push:
-  #  branches: ["main"]
+  push:
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -42,10 +42,11 @@ jobs:
           cp -r p2v3 v2p3/
           cd v2p3
           touch playlist.js
-          echo "appendDemoToPlaylist('Fall of Man', 'p2v3/demo-jml-fallofman/');" >> playlist.js
-          echo "appendDemoToPlaylist('Fight 21XX', 'p2v3/demo-jml-fight21xx/');" >> playlist.js
-          echo "appendDemoToPlaylist('Hauho', 'p2v3/demo-jml-hauho/');" >> playlist.js
-          echo "appendDemoToPlaylist('JUHA 001', 'p2v3/demo-jml-juha001/');" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Fall of Man', 'p2v3/demo-jml-fallofman/');" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Fight 21XX', 'p2v3/demo-jml-fight21xx/');" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Hauho', 'p2v3/demo-jml-hauho/');" >> playlist.js
+          echo "appendDemoToPlaylist('JML - JUHA 001', 'p2v3/demo-jml-juha001/');" >> playlist.js
+          echo "appendDemoToPlaylist('Ajna - Monumentalne zabytki MMDXXV', 'p2v3/demo-ajna-monumentalne-zabytki-mmdxxv/');" >> playlist.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
