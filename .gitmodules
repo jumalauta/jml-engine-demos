@@ -16,3 +16,6 @@
 [submodule "p2v3/demo-jml-auto2000"]
 	path = p2v3/demo-jml-auto2000
 	url = https://github.com/jumalauta/demo-jml-auto2000.git
+[submodule "p2v3/demo-jml-nmd"]
+	path = p2v3/demo-jml-nmd
+	url = https://github.com/jumalauta/demo-jml-nmd.git
