@@ -37,9 +37,9 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Setup JMLTube
         run: |
-          wget https://jumalauta.untergrund.net/v2p3.tar.gz
-          tar xvzf v2p3.tar.gz
-          cp -r p2v3 v2p3/
+          wget https://github.com/jumalauta/jml-engine-webgl/releases/latest/download/release-node.zip
+          unzip release-node.zip
+          cp -r release-node v2p3/
           cd v2p3
           touch playlist.js
           echo "appendDemoToPlaylist('JML - Auto 2000', 'p2v3/demo-jml-auto2000/');" >> playlist.js
