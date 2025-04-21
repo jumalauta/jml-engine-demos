@@ -22,3 +22,6 @@
 [submodule "p2v3/demo-jml-lastfarjan"]
 	path = p2v3/demo-jml-lastfarjan
 	url = https://github.com/jumalauta/demo-jml-lastfarjan.git
+[submodule "p2v3/demo-jml-armento"]
+	path = p2v3/demo-jml-armento
+	url = https://github.com/jumalauta/demo-jml-armento

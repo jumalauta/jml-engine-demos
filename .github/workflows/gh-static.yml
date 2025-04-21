@@ -50,6 +50,7 @@ jobs:
           echo "appendDemoToPlaylist('JML - JUHA 001', 'p2v3/demo-jml-juha001/');" >> playlist.js
           echo "appendDemoToPlaylist('JML - Last Färjan', 'p2v3/demo-jml-lastfarjan/');" >> playlist.js
           echo "appendDemoToPlaylist('JML - NMD', 'p2v3/demo-jml-nmd/');" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Summis Vita In Armento', 'p2v3/demo-jml-armento/');" >> playlist.js
           echo "appendDemoToPlaylist('Ajna - Monumentalne zabytki MMDXXV', 'p2v3/demo-ajna-monumentalne-zabytki-mmdxxv/');" >> playlist.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
