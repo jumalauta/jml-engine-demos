@@ -25,3 +25,6 @@
 [submodule "p2v3/demo-jml-armento"]
 	path = p2v3/demo-jml-armento
 	url = https://github.com/jumalauta/demo-jml-armento
+[submodule "p2v3/demo-jml-ponr"]
+	path = p2v3/demo-jml-ponr
+	url = https://github.com/jumalauta/demo-jml-ponr
