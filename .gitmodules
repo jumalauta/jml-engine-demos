@@ -28,3 +28,6 @@
 [submodule "p2v3/demo-jml-ponr"]
 	path = p2v3/demo-jml-ponr
 	url = https://github.com/jumalauta/demo-jml-ponr
+[submodule "p2v3/demo-jml-graffathon25"]
+	path = p2v3/demo-jml-graffathon25
+	url = https://github.com/jumalauta/demo-jml-graffathon25.git
