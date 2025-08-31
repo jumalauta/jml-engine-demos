@@ -31,3 +31,6 @@
 [submodule "p2v3/demo-jml-graffathon25"]
 	path = p2v3/demo-jml-graffathon25
 	url = https://github.com/jumalauta/demo-jml-graffathon25.git
+[submodule "p2v3/demo-jml-helstosyn"]
+	path = p2v3/demo-jml-helstosyn
+	url = https://github.com/jumalauta/demo-jml-helstosyn.git

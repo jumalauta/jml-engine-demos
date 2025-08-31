@@ -47,6 +47,7 @@ jobs:
           echo "appendDemoToPlaylist('JML - Fall of Man', 'p2v3/demo-jml-fallofman/');" >> playlist.js
           echo "appendDemoToPlaylist('JML - Fight 21XX', 'p2v3/demo-jml-fight21xx/');" >> playlist.js
           echo "appendDemoToPlaylist('JML - Hauho', 'p2v3/demo-jml-hauho/');" >> playlist.js
+          echo "appendDemoToPlaylist('JML - HEL-STO-SYN', 'p2v3/demo-jml-helstosyn/');" >> playlist.js
           echo "appendDemoToPlaylist('JML - JUHA 001', 'p2v3/demo-jml-juha001/');" >> playlist.js
           echo "appendDemoToPlaylist('JML - Last Färjan', 'p2v3/demo-jml-lastfarjan/');" >> playlist.js
           echo "appendDemoToPlaylist('JML - NMD', 'p2v3/demo-jml-nmd/');" >> playlist.js
