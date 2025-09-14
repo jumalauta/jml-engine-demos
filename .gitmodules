@@ -34,3 +34,6 @@
 [submodule "p2v3/demo-jml-helstosyn"]
 	path = p2v3/demo-jml-helstosyn
 	url = https://github.com/jumalauta/demo-jml-helstosyn.git
+[submodule "p2v3/demo-jml-catarchy"]
+	path = p2v3/demo-jml-catarchy
+	url = https://github.com/jumalauta/demo-jml-catarchy.git
