@@ -43,19 +43,19 @@ jobs:
           mv p2v3 v2p3/
           cd v2p3
           touch playlist.js
-          echo "appendDemoToPlaylist('JML - Auto 2000', 'p2v3/demo-jml-auto2000/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Fall of Man', 'p2v3/demo-jml-fallofman/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Feles Contra Omnia', 'p2v3/demo-jml-catarchy/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Fight 21XX', 'p2v3/demo-jml-fight21xx/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Hauho', 'p2v3/demo-jml-hauho/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - HEL-STO-SYN', 'p2v3/demo-jml-helstosyn/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - JUHA 001', 'p2v3/demo-jml-juha001/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Last Färjan', 'p2v3/demo-jml-lastfarjan/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - NMD', 'p2v3/demo-jml-nmd/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Point of No Return', 'p2v3/demo-jml-ponr/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Summis Vita In Armento', 'p2v3/demo-jml-armento/');" >> playlist.js
-          echo "appendDemoToPlaylist('JML - U+1F35E', 'p2v3/demo-jml-graffathon25/');" >> playlist.js
-          echo "appendDemoToPlaylist('Ajna - Monumentalne zabytki MMDXXV', 'p2v3/demo-ajna-monumentalne-zabytki-mmdxxv/');" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Auto 2000', 'p2v3/demo-jml-auto2000/', { youtube: 'duul6JfFYGo' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Fall of Man', 'p2v3/demo-jml-fallofman/', { youtube: 'kQdD90eKuZg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Feles Contra Omnia', 'p2v3/demo-jml-catarchy/', { youtube: '6QUReIZZ3f4' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Fight 21XX', 'p2v3/demo-jml-fight21xx/', { youtube: 'a0zEygkgGZk' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Hauho', 'p2v3/demo-jml-hauho/', { youtube: 'Ct3v-Oq3xV0' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - HEL-STO-SYN', 'p2v3/demo-jml-helstosyn/', { youtube: 'YiOoQV3pzZ0' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - JUHA 001', 'p2v3/demo-jml-juha001/', { youtube: 'wwfzf_VCz0M' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Last Färjan', 'p2v3/demo-jml-lastfarjan/', { youtube: '7AqWbEDcyxg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - NMD', 'p2v3/demo-jml-nmd/', { youtube: 'Bk02hW1KC98' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Point of No Return', 'p2v3/demo-jml-ponr/', { youtube: 'HFqYu8J10dQ' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Summis Vita In Armento', 'p2v3/demo-jml-armento/', { youtube: 'kMFubRiUOkw' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - U+1F35E', 'p2v3/demo-jml-graffathon25/', { youtube: 'iqqhMm44uAw' });" >> playlist.js
+          echo "appendDemoToPlaylist('Ajna - Monumentalne zabytki MMDXXV', 'p2v3/demo-ajna-monumentalne-zabytki-mmdxxv/', { youtube: 'UgBMaw3ZTyc' });" >> playlist.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
