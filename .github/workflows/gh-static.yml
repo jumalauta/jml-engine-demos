@@ -43,19 +43,21 @@ jobs:
           mv p2v3 v2p3/
           cd v2p3
           touch playlist.js
-          echo "appendDemoToPlaylist('JML - Auto 2000', 'p2v3/demo-jml-auto2000/', { youtube: 'duul6JfFYGo' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Fall of Man', 'p2v3/demo-jml-fallofman/', { youtube: 'kQdD90eKuZg' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Feles Contra Omnia', 'p2v3/demo-jml-catarchy/', { youtube: '6QUReIZZ3f4' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Fight 21XX', 'p2v3/demo-jml-fight21xx/', { youtube: 'a0zEygkgGZk' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Hauho', 'p2v3/demo-jml-hauho/', { youtube: 'Ct3v-Oq3xV0' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - HEL-STO-SYN', 'p2v3/demo-jml-helstosyn/', { youtube: 'YiOoQV3pzZ0' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - JUHA 001', 'p2v3/demo-jml-juha001/', { youtube: 'wwfzf_VCz0M' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Last Färjan', 'p2v3/demo-jml-lastfarjan/', { youtube: '7AqWbEDcyxg' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - NMD', 'p2v3/demo-jml-nmd/', { youtube: 'Bk02hW1KC98' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Point of No Return', 'p2v3/demo-jml-ponr/', { youtube: 'HFqYu8J10dQ' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - Summis Vita In Armento', 'p2v3/demo-jml-armento/', { youtube: 'kMFubRiUOkw' });" >> playlist.js
-          echo "appendDemoToPlaylist('JML - U+1F35E', 'p2v3/demo-jml-graffathon25/', { youtube: 'iqqhMm44uAw' });" >> playlist.js
-          echo "appendDemoToPlaylist('Ajna - Monumentalne zabytki MMDXXV', 'p2v3/demo-ajna-monumentalne-zabytki-mmdxxv/', { youtube: 'UgBMaw3ZTyc' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Automata et Saltatio', 'p2v3/demo-jml-saltatio/', { youtube: 'CkTt3IRoV7A', screenshot: 'https://content.pouet.net/files/screenshots/00105/00105969.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Auto 2000', 'p2v3/demo-jml-auto2000/', { youtube: 'duul6JfFYGo', screenshot: 'https://content.pouet.net/files/screenshots/00097/00097087.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Fall of Man', 'p2v3/demo-jml-fallofman/', { youtube: 'kQdD90eKuZg', screenshot: 'https://content.pouet.net/files/screenshots/00096/00096234.png' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Feles Contra Omnia', 'p2v3/demo-jml-catarchy/', { youtube: '6QUReIZZ3f4', screenshot: 'https://content.pouet.net/files/screenshots/00104/00104994.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Fight 21XX', 'p2v3/demo-jml-fight21xx/', { youtube: 'a0zEygkgGZk', screenshot: 'https://content.pouet.net/files/screenshots/00071/00071709.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Hauho', 'p2v3/demo-jml-hauho/', { youtube: 'Ct3v-Oq3xV0', screenshot: 'https://content.pouet.net/files/screenshots/00082/00082987.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - HEL-STO-SYN', 'p2v3/demo-jml-helstosyn/', { youtube: 'YiOoQV3pzZ0', screenshot: 'https://content.pouet.net/files/screenshots/00104/00104910.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - JUHA 001', 'p2v3/demo-jml-juha001/', { youtube: 'wwfzf_VCz0M', screenshot: 'https://content.pouet.net/files/screenshots/00068/00068837.png' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Last Färjan', 'p2v3/demo-jml-lastfarjan/', { youtube: '7AqWbEDcyxg', screenshot: 'https://content.pouet.net/files/screenshots/00086/00086945.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - NMD', 'p2v3/demo-jml-nmd/', { youtube: 'Bk02hW1KC98', screenshot: 'https://content.pouet.net/files/screenshots/00095/00095968.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Point of No Return', 'p2v3/demo-jml-ponr/', { youtube: 'HFqYu8J10dQ', screenshot: 'https://content.pouet.net/files/screenshots/00097/00097440.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Sigma 67 Compilation 🫱6️⃣7️⃣🫲🤣🤣🤣', 'p2v3/demo-jml-sigma67/', { youtube: 'WiAl3HM92Sg', screenshot: 'https://content.pouet.net/files/screenshots/00105/00105797.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - Summis Vita In Armento', 'p2v3/demo-jml-armento/', { youtube: 'kMFubRiUOkw', screenshot: 'https://content.pouet.net/files/screenshots/00103/00103983.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('JML - U+1F35E', 'p2v3/demo-jml-graffathon25/', { youtube: 'iqqhMm44uAw', screenshot: 'https://content.pouet.net/files/screenshots/00104/00104287.jpg' });" >> playlist.js
+          echo "appendDemoToPlaylist('Ajna - Monumentalne zabytki MMDXXV', 'p2v3/demo-ajna-monumentalne-zabytki-mmdxxv/', { youtube: 'UgBMaw3ZTyc', screenshot: 'https://content.pouet.net/files/screenshots/00077/00077888.jpg' });" >> playlist.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
