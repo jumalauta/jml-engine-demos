@@ -59,8 +59,9 @@ jobs:
           echo "appendDemoToPlaylist('JML - U+1F35E', 'p2v3/demo-jml-graffathon25/', { youtube: 'iqqhMm44uAw', screenshot: 'https://content.pouet.net/files/screenshots/00104/00104287.jpg' });" >> playlist.js
           echo "appendDemoToPlaylist('Ajna - Monumentalne zabytki MMDXXV', 'p2v3/demo-ajna-monumentalne-zabytki-mmdxxv/', { youtube: 'UgBMaw3ZTyc', screenshot: 'https://content.pouet.net/files/screenshots/00077/00077888.jpg' });" >> playlist.js
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
+          name: github-pages
           # Upload entire repository
           path: 'v2p3'
       - name: Deploy to GitHub Pages
